@@ -1,0 +1,480 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+body {
+  background-image: url(../images/Unique_World_Map_d.jpg);
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+#home_page_button{
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  color: #257884;
+}
+
+.navRow{
+  width: 100%;
+}
+nav {
+background-image: url(../images/Unique_World_Map_d.jpg);
+height: 150px;
+position: fixed;
+
+}
+hr{
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 8px solid rgb(0, 122, 134);
+}
+
+.langRow1 {
+  position: relative;
+  background-color: #cdf3f0;
+  /* z-index: 2; */
+  padding-bottom: 40px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+ color: rgb(75, 77, 77);
+}
+
+.catRow2 {
+  font-family: 'Nunito', sans-serif;
+  background-color:  #cdf3f0;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  color: rgb(75, 77, 77);
+}
+
+.bg-dark {
+  background-color: #35acbd !important;
+
+}
+nav a {
+  color: white;
+}
+.link1 {
+  
+  color: aliceblue !important;
+}
+.column1{
+  left: 41px;
+  top: 12px;
+}
+
+.column2{
+  display: inline-flex;
+  left: -3px;
+  top: 46px;
+}
+.column3{
+  display: inline-flex;
+  left: 78px;
+  top: 86px;
+}
+.headTitle {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.searchBox { 
+  width: 100%;
+  top: 35px;
+  left: -15px;
+}
+.searchBut {
+  right: -70px;
+  position: absolute;
+  top: -1px;
+  background-color: #257884!important;
+} 
+
+.search_idiom_submit {
+
+  background-color: #425de6!important;
+}
+h2 {
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+h3 {
+  font-family: 'Nunito', sans-serif;
+}
+.languageRow{
+  width: 100%;
+}
+.hideDiv {
+  display: none;
+}
+#adding_button {
+  border: 0;
+  background: none;
+  color: white;
+  position: relative;
+  left: 410px;
+  top: -52px;
+}
+#copy_button{
+  border: 0;
+  background: none;
+  color: white;
+  position: relative;
+  left: 424px;
+  top: -46px;
+}
+
+/* .worldimg {
+  width: 100%;
+  height: 470px;
+  
+  background-repeat: no-repeat;
+  background-position: center center, left top;
+} */
+
+/* .inner-box {
+  z-index: 2;
+  width: 50%;
+  height: 400px;
+  left: 261px;
+  top: 135px;
+  background-color: #35acbd;
+} */
+
+
+h6 {
+  font-weight: bold;
+  color: white;
+  margin: 20px;
+}
+
+p {
+  color: white;
+  margin: 20px;
+}
+
+footer {
+  background-color: #257884 !important;
+  color: white !important;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.wrapperBox1{
+  width: 100%;
+  background-color: #d8e1e2;
+}
+/* haddassah's CSS */
+
+.roundButton {
+  border-radius: 12px;
+  background-color: #35acbd !important;
+}
+.language_button{
+  max-width: 20rem; 
+  background-color: #35acbd !important;
+}
+#langBtn1
+#langBtn2
+#langBtn3{
+  background-color: #35acbd !important;
+}
+.searchByTopic{
+  max-width: 20rem; 
+  background-color: #35acbd !important;
+}
+#categoryBtn1
+#categoryBtn2
+#categoryBtn3{
+  background-color: #35acbd !important;
+}
+.resultCard{
+  max-width: 60rem; 
+  background-color: #85cdd7 !important;
+  font-family: 'Nunito', sans-serif;
+}
+.card-header{
+  background-color: #35acbd;
+  font-family: 'Nunito', sans-serif;
+}
+.card-body{
+  background-color: #29c7d6;
+  font-family: 'Nunito', sans-serif;
+}
+.newIdiom{
+  background-color: #35acbd !important;
+  font-family: 'Nunito', sans-serif;
+}
+.newIdiomSub{
+  background-color: #257884;
+  font-family: 'Nunito', sans-serif;
+}
+.newIdiomBut{
+  background-color: #257884;
+  font-family: 'Nunito', sans-serif;
+}
+.addIdiom {
+  background-color: #35acbd !important;
+}
+.mini_resRow {
+  width: 100%;
+}
+
+/* #multi_res_div{
+width: 100%;
+
+} */
+#multi_idiom_holder {
+  /* height: 70%;
+  width: 40%; */
+}
+
+
+
+@media (max-width: 979px){
+.autocomplete-items div {
+    width: 100%;
+    float: right;
+}
+.link1 {
+  width: 100%;
+}
+.searchBox {
+  width: 100%;
+}
+}
+
+@media (max-width: 768px){
+  .autocomplete-items div {
+      width: 342px;
+      float: right;
+  }
+  .link1 {
+    width: 80%;
+  }
+  .searchBox {
+    width: 70%;
+    float: left;
+  
+  }
+  .headTitle {
+    width: 70%;
+    float: right;
+    align-content: center;
+  }
+  }
+  @media (max-width: 567px){
+    .autocomplete-items div {
+      width: 300px;;
+      top: 0;
+      left: -16px;
+
+    }
+    .searchBox {
+      width: 40%;
+      float: left;  
+    }
+    .headTitle {
+      width: 40%;
+      float: right;
+      align-content: center;
+    }
+    .link1 {
+      width: 50%;
+        float: right;
+    }
+
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    /* autocomplete style */
+    
+    .autocomplete-items {
+      position: absolute;
+      /* border: 1px solid #d4d4d4; */ 
+      border-bottom: none;
+      border-top: none;
+      z-index: 99;
+      /*position the autocomplete items to be the same width as the container:*/
+      top: 100%;
+      left: 0;
+      right: 0;
+    }
+    
+    .autocomplete-items div {
+      padding: 10px;
+      cursor: pointer;
+      background-color: #fff; 
+      border-bottom: 1px solid #d4d4d4; 
+      border-top: 1px solid #d4d4d4;
+      width: 588px;
+      top: -153px;
+      display: inline-flex;
+      position: relative;
+      left: 15px;
+      border-radius: 5px;
+    }
+    
+    .autocomplete-items div:hover {
+      /*when hovering an item:*/
+      background-color: #e9e9e9; 
+    }
+    
+    .autocomplete-active {
+      /*when navigating through the items using the arrow keys:*/
+      background-color: DodgerBlue !important; 
+      color: #ffffff; 
+    }
+
+
+
+/* HEXAGON */
+.hexagon {
+  position: relative;
+  width: 400px; 
+  height: 230.94px;
+  background-color: #64C7CC;
+  margin: 115.47px 0;
+  border-left: solid 5px #ccfdf3;
+  border-right: solid 5px #ccfdf3;
+  opacity: 0.7 !important;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 282.84px;
+  height: 282.84px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 53.5786px;
+}
+
+.hexagon:before {
+  top: -141.4214px;
+  border-top: solid 7.0711px #ccfdf3;
+  border-right: solid 7.0711px #ccfdf3;
+}
+
+.hexagon:after {
+  bottom: -141.4214px;
+  border-bottom: solid 7.0711px #ccfdf3;
+  border-left: solid 7.0711px #ccfdf3;
+}
+
+
+
+/* TESTING FOR HEX */
+/* Container holding the image and the text */
+.containerHex {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* from haddassah */
+
+/* TESTING FOR HEX */
+/* Container holding the image and the text */
+.containerHex {
+  width: 450px;
+  height: 450px;
+  color: #15444b !important;
+}
+.rowHex {
+  width: 100%;
+}
+.containerHex::after {
+  background: url("../images/hexagon-b.png");
+  background-size: 450px 450px;
+  background-repeat: no-repeat;
+  content: "";
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.hexText{
+  position: relative;
+  text-align: center;
+  color: #15444b !important;
+  background: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* p {
+  color: #15444b !important; 
+} */

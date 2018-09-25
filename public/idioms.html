@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Idioms Result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/styles.css">
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark nav">
+        <div class="container">
+
+            <div class="row navRow">
+                <div class="col-sm-1 column1">
+                    <div class="headTitle">
+                        <a href="homepage.html">
+                            <img src="./images/lingobits_logo.JPG" alt="Logo" style="width:150px;height:150px;border:0;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-7 column2">
+                    <div class="col-auto searchBox mx-auto autocomplete">
+                        <label class="sr-only" for="inlineFormInput"></label>
+                        <input type="search" class="form-control" id="search_idiom_input" placeholder="idioms">
+                        <button type="button" class="btn btn-info searchBut" id="search_idiom_submit">Search</button></div>
+                </div>
+                <div class="col-sm-2 column3">
+                    <div class="link1">
+                        <button id="home_page_butto" class="fas fa-home fa-lg"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <br>
+
+
+    <div class="container">
+        <div class="row rowsHex">
+            <div class="col-xs-6 col-md-4">
+                <div class="containerHex hexText">
+                    <div class="centered">
+                        <h1 class="card-title" id="OrigIdiom">Original Idiom</h1>
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="containerHex hexText">
+                    <div class="centered">
+                        <h1 class="card-title" id="OrigIdiom">Original Idiom</h1>
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="containerHex hexText">
+                    <div class="centered">
+                        <h1 class="card-title" id="OrigIdiom">Original Idiom</h1>
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container justify-content-center hideDiv" id="the_idiom_div">
+        <div class="row justify-content-center">
+            <div class="col align-self-center card-deck justify-content-center">
+                <div class="resultCard card border-dark mb-3 card text-white text-center mb-3">
+                    <div class="card-header">
+                        <h3 class="card-title" id="idiom_card_name">test</h3>
+                        <button id="adding_button" data-id="" data-category=""><i class="fas fa-plus-circle fa-lg"
+                                aria-hidden="true"></i></button>
+                        <button id="copy_button" data-id="" data-category=""><i class="far fa-copy fa-2x" aria-hidden="true"></i></button>
+                    </div>
+
+                    <div class="card-body justify-content-center">
+                        <p class="card-title">Pronunciation:</p>
+                        <p id="idiom_card_pronunciation"></p>
+                        <p class="card-text">Literal Translation:</p>
+                        <p id="idiom_card_literalTrans"></p>
+                        <p class="card-text">Meaning:</p>
+                        <p id="idiom_card_meaning"></p>
+                        <p class="card-title">Category:</p>
+                        <p id="idiom_card_category"></p>
+                        <img id="idiom_card_language" src="" alt="language marked by flag">
+                    </div>
+                    <div class="card-footer text-white card-body justify-content-left" id="link_holder">
+                    </div>
+                    <div class="container">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <div class="hexagon card">
+                    <div class="card-body justify-content-center">
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                    </div>
+                    <div class="card-footer text-white">
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-4">
+                <div class="hexagon">
+                    <div class="card-body justify-content-center">
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                    </div>
+                    <div class="card-footer text-white card-body justify-content-left">
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-4">
+                <div class="hexagon">
+                    <div class="card-body justify-content-center">
+                        <p class="card-title" style="font-weight: bold">Pronunciation:</p>
+                        <p class="pronunciation"></p>
+                        <p class="card-text" style="font-weight: bold">Literal Translation:</p>
+                        <p class="literalTrans"></p>
+                        <p class="card-text" style="font-weight: bold">Meaning:</p>
+                        <p class="meaning"></p>
+                    </div>
+                    <div class="card-footer text-white card-body justify-content-left">
+                        <h3 class="card-title" id="connections">Connections:</h3>
+                        <p class="card-title" id="connectionOne">Hebrew</p>
+                        <p class="card-title" id="connectionTwo">Arabic</p>
+                        <p class="card-title" id="connectionThree">French</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer mx-auto">
+        <p>copyright © 2018</p>
+    </footer>
+
+
+
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body hexagon">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body hexagon">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body hexagon">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="containerHex">
+            <img src="./images/hex_paint.png" alt="hex_paint" style="width:200px">
+            <div class="centered">Centered</div>
+        </div> -->
+
+
+
+
+</body>
+
+</html>
